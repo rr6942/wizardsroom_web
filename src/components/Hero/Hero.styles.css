@@ -4,13 +4,13 @@
   position: relative;
   background: #fff;
   color: #000;
-  padding: 100px 0;
+  padding: 60px 0;
   text-align: center;
 }
 
 .hero-content {
   display: flex; /* Use flexbox to align items */
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   opacity: 0;
   transform: translateY(20px);
@@ -25,7 +25,7 @@
 .nft-card {
   width: 300px;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
   margin-right: 20px;
   transition: transform 0.3s ease; /* Add transition for the rotation effect */
 }
@@ -40,12 +40,12 @@
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   margin-bottom: 20px;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 2.2em;
   margin-bottom: 30px;
 }
 

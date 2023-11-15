@@ -17,10 +17,13 @@
 .dice-image {
   max-width: 300px; /* Adjust the maximum width of the image */
   height: auto;
+  margin-left: 80px;
+  border-radius: 30px; /* Optional: Add border-radius for rounded corners */
 }
 
 .text-content {
   max-width: 600px; /* Adjust the maximum width of the text content */
+  margin-right: 80px;
 }
 
 /* Add any additional styles as needed */

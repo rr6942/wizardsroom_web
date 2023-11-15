@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="text-content">
           <h1>Welcome to Wizard's Room</h1>
           <p>A place built by degens for degens.</p>
-          <button className="cta-button">Get Started</button>
+          <button className="cta-button">Join Us!</button>
         </div>
         <img
           src={require("./wizard_pepe_nft_card.jpeg")}

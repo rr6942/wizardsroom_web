@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9086b857.css",
-    "main.js": "/static/js/main.0594cdfa.js",
+    "main.css": "/static/css/main.ecaff756.css",
+    "main.js": "/static/js/main.ad1ed3a6.js",
     "static/media/pepedice.jpeg": "/static/media/pepedice.393c76d5b8a7ff7d91e3.jpeg",
     "static/media/club1.jpeg": "/static/media/club1.8235b94af2e63fecbb27.jpeg",
     "static/media/wizard_experience_isometric.jpeg": "/static/media/wizard_experience_isometric.c30c3b62620e3ddca003.jpeg",
@@ -10,11 +10,11 @@
     "static/media/wizard_pepe_nft_card.jpeg": "/static/media/wizard_pepe_nft_card.4923055958989c5663fc.jpeg",
     "static/media/etherscan-logo-circle.svg": "/static/media/etherscan-logo-circle.9766128bc4ad41ad1bbad073e586da74.svg",
     "index.html": "/index.html",
-    "main.9086b857.css.map": "/static/css/main.9086b857.css.map",
-    "main.0594cdfa.js.map": "/static/js/main.0594cdfa.js.map"
+    "main.ecaff756.css.map": "/static/css/main.ecaff756.css.map",
+    "main.ad1ed3a6.js.map": "/static/js/main.ad1ed3a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9086b857.css",
-    "static/js/main.0594cdfa.js"
+    "static/css/main.ecaff756.css",
+    "static/js/main.ad1ed3a6.js"
   ]
 }

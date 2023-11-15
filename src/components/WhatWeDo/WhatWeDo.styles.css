@@ -7,7 +7,7 @@
 }
 
 .content-container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -17,9 +17,15 @@
   margin-bottom: 40px; /* Adjust margin as needed */
 }
 
-.image,
+.image {
+  width: 100%;
+  flex: 1;
+  margin-right: 50px; /* Adjust margin for the image */
+}
+
 .text {
   flex: 1;
+  margin-left: 50px; /* Adjust margin for the text */
 }
 
 .image img {
@@ -29,10 +35,12 @@
 
 .reverse .image {
   order: 2;
+  margin-left: 50px; /* Adjust margin for the text */
 }
 
 .reverse .text {
   order: 1;
+  margin-right: 50px; /* Adjust margin for the image */
 }
 
 h2 {
