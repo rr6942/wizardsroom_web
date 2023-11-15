@@ -1,0 +1,26 @@
+.dice-section {
+  margin-top: 200px; /* Increase the space above the section */
+  margin-bottom: 300px; /* Increase the space below the section */
+}
+
+.header-section {
+  text-align: center;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.dice-image {
+  max-width: 300px; /* Adjust the maximum width of the image */
+  height: auto;
+}
+
+.text-content {
+  max-width: 600px; /* Adjust the maximum width of the text content */
+}
+
+/* Add any additional styles as needed */

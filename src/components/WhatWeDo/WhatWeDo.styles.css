@@ -1,0 +1,48 @@
+/* WhatWeDo.styles.css */
+
+.what-we-do {
+  background-color: #f8f8f8; /* Set a background color for the section */
+  padding: 80px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px; /* Adjust margin as needed */
+}
+
+.image,
+.text {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+.reverse .image {
+  order: 2;
+}
+
+.reverse .text {
+  order: 1;
+}
+
+h2 {
+  color: #333; /* Set the heading color */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666; /* Set the paragraph text color */
+  font-size: 1.2em;
+  line-height: 1.5;
+}

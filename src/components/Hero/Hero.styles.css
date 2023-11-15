@@ -1,0 +1,65 @@
+/* Hero.styles.css */
+
+.hero {
+  position: relative;
+  background: #fff;
+  color: #000;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  display: flex; /* Use flexbox to align items */
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3.8s ease, transform 3.8s ease;
+}
+
+.hero-content.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nft-card {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  transition: transform 0.3s ease; /* Add transition for the rotation effect */
+}
+
+.nft-card:hover {
+  transform: scale(1.1) rotate(15deg); /* Adjust the scale and rotation angle as needed */
+}
+
+.text-content {
+  flex: 1; /* Allow the text content to grow and take up available space */
+  text-align: left; /* Align text content to the left */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #2ecc71;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #27ae60;
+}

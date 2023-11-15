@@ -1,0 +1,24 @@
+.footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #000;
+}
+
+.footer-social a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.footer-social a:hover {
+  color: #000;
+}
+
+.twitter-icon,
+.custom-icon {
+  width: 1.5rem; /* Adjust the width to your desired size */
+  height: 1.5rem; /* Adjust the height to your desired size */
+}
