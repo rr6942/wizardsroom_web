@@ -1,29 +1,28 @@
+/* Header.styles.css */
 .header {
-  background-color: #fff;
+  background-color: white;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  font-family: "Comic Sans MS", "Chalkboard SE", "Marker Felt", sans-serif;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
   color: #000;
+  text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 0;
 }
 
 .nav {
   display: flex;
-  align-items: center;
 }
 
 .nav-links {
-  display: flex;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .nav-links li {
@@ -41,13 +40,23 @@
   color: #00ff00;
 }
 
-@media (min-width: 768px) {
+/* Adjustments for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
   .header {
-    flex-direction: row; /* Switch back to horizontal layout on larger screens */
+    flex-direction: column; /* Stack items vertically on smaller screens */
   }
 
   .nav {
-    flex-direction: row; /* Switch back to horizontal layout on larger screens */
-    margin-left: auto; /* Move navigation to the right on larger screens */
+    margin-top: 1rem; /* Add space between logo and navigation on smaller screens */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack navigation links vertically on smaller screens */
+    text-align: center; /* Center text content */
+  }
+
+  .nav-links li {
+    margin-left: 0; /* Remove left margin for smaller screens */
+    margin-bottom: 0.5rem; /* Add margin between navigation links on smaller screens */
   }
 }

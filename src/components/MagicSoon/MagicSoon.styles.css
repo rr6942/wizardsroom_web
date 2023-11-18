@@ -1,20 +1,30 @@
+/* MagicSoon.styles.css */
+
 .magic-soon-section {
-  background-color: #f8f8f8;
-  padding: 20px; /* Adjust as needed for top and bottom space */
+  background-color: #000; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 80px 20px; /* Adjust padding as needed */
   text-align: center;
 }
 
 .magic-soon-text {
-  color: lightgrey;
+  font-size: 2em; /* Adjust font size as needed */
+  font-weight: bold;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s, transform 0.5s;
-  width: 100%; /* Occupy the full width */
-  font-size: 24px; /* Adjust as needed for the font size */
-  white-space: pre; /* Preserve consecutive spaces */
+  transition: opacity 0.5s ease-in-out;
 }
 
-.magic-soon-text.appear {
+.appear {
   opacity: 1;
-  transform: translateY(0);
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .magic-soon-section {
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .magic-soon-text {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
 }

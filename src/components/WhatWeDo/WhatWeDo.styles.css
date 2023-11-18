@@ -1,56 +1,79 @@
 /* WhatWeDo.styles.css */
 
 .what-we-do {
-  background-color: #f8f8f8; /* Set a background color for the section */
-  padding: 80px 0; /* Adjust padding as needed */
+  background-color: #f8f8f8;
+  padding: 60px 0;
   text-align: center;
 }
 
 .content-container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.section {
-  display: flex;
-  align-items: center;
-  margin-bottom: 40px; /* Adjust margin as needed */
-}
-
-.image {
-  width: 100%;
-  flex: 1;
-  margin-right: 50px; /* Adjust margin for the image */
-}
-
-.text {
-  flex: 1;
-  margin-left: 50px; /* Adjust margin for the text */
-}
-
-.image img {
-  width: 100%;
-  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
-}
-
-.reverse .image {
-  order: 2;
-  margin-left: 50px; /* Adjust margin for the text */
-}
-
-.reverse .text {
-  order: 1;
-  margin-right: 50px; /* Adjust margin for the image */
-}
-
 h2 {
-  color: #333; /* Set the heading color */
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
 
 p {
-  color: #666; /* Set the paragraph text color */
-  font-size: 1.2em;
-  line-height: 1.5;
+  font-size: 1.8em;
+  margin-bottom: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.section.reverse {
+  flex-direction: column-reverse;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.text h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 1.6em;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .section {
+    flex-direction: row;
+  }
+
+  .section.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .image {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .image:last-child {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
+  .text {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .text:last-child {
+    margin-left: 0;
+    margin-right: 20px;
+  }
 }

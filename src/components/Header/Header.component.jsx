@@ -1,3 +1,4 @@
+// Header.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.styles.css";
@@ -5,7 +6,9 @@ import "./Header.styles.css";
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">Wizard's Room</div>
+      <Link to="/" className="logo">
+        Wizard's Room
+      </Link>
       <nav className="nav">
         <ul className="nav-links">
           <li>
@@ -13,7 +16,6 @@ const Header = () => {
           </li>
           <li>
             <Link to="/about">About</Link>
-            {/* If you have an AboutPage component, add this link */}
           </li>
           <li>
             <Link to="/roadmap">Roadmap</Link>

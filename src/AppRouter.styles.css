@@ -1,0 +1,25 @@
+/* AppRouter.css */
+
+body {
+  font-family: "Alexandria", sans-serif;
+  /* Add more fallback fonts as needed */
+}
+
+.main-wrapper {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the main wrapper horizontally */
+
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  background-color: pink;
+}
+
+img {
+  max-width: 100%; /* Make images responsive within their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+p {
+  color: #666;
+}

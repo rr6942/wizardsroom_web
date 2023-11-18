@@ -1,29 +1,41 @@
+/* dice.styles.css */
+
 .dice-section {
-  margin-top: 200px; /* Increase the space above the section */
-  margin-bottom: 300px; /* Increase the space below the section */
+  padding: 80px 20px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff; /* White background */
 }
 
 .header-section {
-  text-align: center;
-}
-
-.content-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 20px;
 }
 
 .dice-image {
-  max-width: 300px; /* Adjust the maximum width of the image */
-  height: auto;
-  margin-left: 80px;
-  border-radius: 30px; /* Optional: Add border-radius for rounded corners */
+  width: 100%;
+  max-width: 500px; /* Adjust max-width as needed */
+  margin-bottom: 20px;
+  border-radius: 10px; /* Add border-radius for a rounded appearance */
 }
 
 .text-content {
-  max-width: 600px; /* Adjust the maximum width of the text content */
-  margin-right: 80px;
+  max-width: 600px; /* Adjust max-width as needed */
+  margin: 0 auto;
 }
 
-/* Add any additional styles as needed */
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .dice-section {
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .dice-image {
+    max-width: 300px; /* Adjust max-width for smaller screens */
+  }
+
+  .text-content {
+    max-width: 100%; /* Full width on smaller screens */
+  }
+}

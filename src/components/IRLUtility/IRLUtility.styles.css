@@ -1,27 +1,47 @@
+/* IRLUtility.styles.css */
+
 .irl-utility-section {
+  padding: 80px 20px; /* Adjust padding as needed */
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around; /* Adjust as needed */
-  text-align: left;
-  margin: 20px; /* Adjust as needed */
+  text-align: center;
+  background-color: white;
 }
 
 .image-container {
-  /* Remove or adjust the margin-right property to control spacing */
+  max-width: 600px; /* Adjust max-width as needed */
+  margin-right: 20px; /* Add margin between image and text */
 }
 
 .utility-image {
-  max-width: 500px; /* Adjust the maximum width of the image */
-  height: auto;
-  border-radius: 30px; /* Optional: Add border-radius for rounded corners */
+  width: 100%;
+  max-width: 100%; /* Full width within container */
+  border-radius: 10px; /* Add border-radius for a rounded appearance */
 }
 
 .text-container {
-  max-width: 600px; /* Adjust the maximum width of the text content */
+  max-width: 600px; /* Adjust max-width as needed */
 }
 
-.text-container h2 {
-  margin: 0; /* Resetting the margin for h2 */
-}
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .irl-utility-section {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+  }
 
-/* Add any additional styles as needed */
+  .image-container {
+    max-width: 100%; /* Full width on smaller screens */
+    margin-right: 0; /* Remove right margin for smaller screens */
+    margin-bottom: 20px; /* Add margin below image on smaller screens */
+  }
+
+  .utility-image {
+    border-radius: 0; /* Remove border-radius on smaller screens */
+  }
+
+  .text-container {
+    max-width: 100%; /* Full width on smaller screens */
+  }
+}

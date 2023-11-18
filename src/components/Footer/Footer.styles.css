@@ -1,24 +1,53 @@
+/* Footer.styles.css */
+
 .footer {
-  background-color: #fff;
+  background-color: #fff; /* Set the background color */
+  color: #000; /* Set the text color */
+  padding: 20px; /* Adjust padding as needed */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  color: #000;
+}
+
+.footer-copyright {
+  font-size: 0.9em; /* Adjust font size as needed */
+}
+
+.footer-social {
+  display: flex;
 }
 
 .footer-social a {
-  color: #000;
+  color: #000; /* Set the link color */
   text-decoration: none;
-  margin-left: 1rem;
+  margin-left: 10px; /* Adjust spacing between social icons */
 }
 
 .footer-social a:hover {
-  color: #000;
+  color: #00ff00; /* Set the link color on hover */
 }
 
-.twitter-icon,
+.twitter-icon {
+  font-size: 1.5em; /* Adjust icon size as needed */
+}
+
 .custom-icon {
-  width: 1.5rem; /* Adjust the width to your desired size */
-  height: 1.5rem; /* Adjust the height to your desired size */
+  width: 25px; /* Adjust icon size as needed */
+  height: 25px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 10px; /* Adjust spacing between social icons on smaller screens */
+  }
+
+  .footer-social a {
+    margin-left: 0; /* Reset margin for social icons on smaller screens */
+  }
 }

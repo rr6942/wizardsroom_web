@@ -1,11 +1,13 @@
-import "./Hero.styles.css";
+// HeroSection.jsx
 import React, { useEffect } from "react";
+import "./Hero.styles.css";
+import WizardPepeImage from "./wizard_pepe_nft_card.jpeg";
 
 const HeroSection = () => {
   useEffect(() => {
-    // Add a class to trigger the animation on mount
     document.querySelector(".hero-content").classList.add("animate");
   }, []);
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -15,7 +17,7 @@ const HeroSection = () => {
           <button className="cta-button">Join Us!</button>
         </div>
         <img
-          src={require("./wizard_pepe_nft_card.jpeg")}
+          src={WizardPepeImage}
           alt="WIZARDS ROOM VIP NFT Card"
           className="nft-card"
         />
@@ -23,4 +25,5 @@ const HeroSection = () => {
     </section>
   );
 };
+
 export default HeroSection;
