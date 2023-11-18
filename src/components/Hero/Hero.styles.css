@@ -4,12 +4,13 @@
   position: relative;
   background: #fff;
   color: #000;
-  padding: 60px 0;
+  margin: 60px 0;
   text-align: center;
 }
 
 .hero-content {
   display: flex; /* Use flexbox to align items */
+
   max-width: 900px;
   margin: 0 auto;
   opacity: 0;
@@ -62,4 +63,46 @@ p {
 
 .cta-button:hover {
   background: #27ae60;
+}
+
+/* Adjustments for smaller screens (e.g., iPhones) */
+@media (max-width: 767px) {
+  .hero {
+    padding: 40px 0; /* Adjust padding for smaller screens */
+  }
+
+  .hero-content {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text content */
+  }
+  .text-content {
+    flex: 1; /* Allow the text container to grow and take up available space */
+    text-align: center; /* Align text content to the left */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nft-card {
+    width: 100%; /* Make the image width 100% for responsiveness */
+    max-width: 300px; /* Add a max-width to avoid stretching on larger screens */
+    margin-right: 0; /* Remove right margin for smaller screens */
+    margin-bottom: 20px; /* Add margin to separate the image from the text */
+  }
+
+  h1 {
+    font-size: 2.5em; /* Adjust heading font size for smaller screens */
+  }
+
+  p {
+    font-size: 1.8em; /* Adjust paragraph font size for smaller screens */
+    margin-bottom: 20px; /* Reduce bottom margin for smaller screens */
+  }
+
+  .cta-button {
+    font-size: 1em; /* Adjust button font size for smaller screens */
+  }
 }

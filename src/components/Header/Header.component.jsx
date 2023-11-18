@@ -12,7 +12,7 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>{" "}
+            <Link to="/about">About</Link>
             {/* If you have an AboutPage component, add this link */}
           </li>
           <li>
