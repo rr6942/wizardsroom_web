@@ -7,6 +7,11 @@ const HeroSection = () => {
   useEffect(() => {
     document.querySelector(".hero-content").classList.add("animate");
   }, []);
+  const redirectToTelegram = () => {
+    // Replace 'YOUR_TELEGRAM_URL' with the actual URL of your Telegram channel
+    const telegramUrl = "";
+    window.location.href = telegramUrl;
+  };
 
   return (
     <section className="hero">
@@ -14,7 +19,15 @@ const HeroSection = () => {
         <div className="text-content">
           <h1>Welcome to Wizard's Room</h1>
           <p>A place built by degens for degens.</p>
-          <button className="cta-button">Join Us!</button>
+          <button className="cta-button">
+            <a
+              href="https://t.me/wizardsroom"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join Us!
+            </a>
+          </button>
         </div>
         <img
           src={WizardPepeImage}

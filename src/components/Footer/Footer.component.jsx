@@ -1,6 +1,8 @@
 import React from "react";
 import { FaTwitter } from "react-icons/fa";
-import { ReactComponent as CustomIcon } from "./etherscan-logo-circle.svg";
+import { FaDiscord } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+
 import "./Footer.styles.css";
 
 const Footer = () => {
@@ -17,8 +19,16 @@ const Footer = () => {
         >
           <FaTwitter className="twitter-icon" />
         </a>
-        <a href="" target="_blank" rel="noreferrer">
-          <CustomIcon className="custom-icon" />
+
+        <a
+          href="https://discord.com/invite/C4ycxDSnGd"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaDiscord className="discord-icon" />
+        </a>
+        <a href="https://t.me/wizardsroom" target="_blank" rel="noreferrer">
+          <FaTelegramPlane className="telegram-icon" />
         </a>
       </div>
     </footer>
