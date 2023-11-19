@@ -27,6 +27,10 @@
   color: #00ff00; /* Set the link color on hover */
 }
 
+.gitbook-icon {
+  font-size: 1.5em; /* Adjust icon size as needed */
+}
+
 .twitter-icon {
   font-size: 1.5em; /* Adjust icon size as needed */
 }

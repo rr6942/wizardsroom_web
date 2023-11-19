@@ -2,6 +2,7 @@ import React from "react";
 import { FaTwitter } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+import { SiGitbook } from "react-icons/si";
 
 import "./Footer.styles.css";
 
@@ -12,6 +13,14 @@ const Footer = () => {
         &copy; {new Date().getFullYear()} Wizard's Room. All rights reserved.
       </div>
       <div className="footer-social">
+        <a
+          href="https://wizards-room.gitbook.io/wizards-room/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SiGitbook className="gitbook-icon" />
+        </a>
+
         <a
           href="https://twitter.com/wizardsroom"
           target="_blank"
