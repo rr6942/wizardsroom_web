@@ -1,0 +1,25 @@
+/* TokensAdopted.css */
+
+.tokens-adopted-container {
+  text-align: center;
+}
+
+.tokens-adopted-heading {
+  font-size: 2em;
+}
+
+.tokens-adopted-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+.tokens-adopted-left {
+  flex: 1;
+  text-align: left;
+}
+
+.tokens-adopted-right {
+  flex: 1;
+  text-align: left;
+}

@@ -12,7 +12,7 @@ body {
   display: flex;
   align-self: center;
   flex-direction: column;
-  background-color: pink;
+  background-color: #fff;
 }
 
 img {
