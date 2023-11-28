@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6e08e18.css",
-    "main.js": "/static/js/main.a2797e7e.js",
+    "main.css": "/static/css/main.f00dde69.css",
+    "main.js": "/static/js/main.f5ee0b8b.js",
     "static/media/pepedice.jpeg": "/static/media/pepedice.393c76d5b8a7ff7d91e3.jpeg",
     "static/media/club1.jpeg": "/static/media/club1.8235b94af2e63fecbb27.jpeg",
     "static/media/wizard_experience_isometric.jpeg": "/static/media/wizard_experience_isometric.c30c3b62620e3ddca003.jpeg",
@@ -9,11 +9,11 @@
     "static/media/isometric2.jpeg": "/static/media/isometric2.d49e6d85594bcf78ec12.jpeg",
     "static/media/wizard_pepe_nft_card.jpeg": "/static/media/wizard_pepe_nft_card.4923055958989c5663fc.jpeg",
     "index.html": "/index.html",
-    "main.c6e08e18.css.map": "/static/css/main.c6e08e18.css.map",
-    "main.a2797e7e.js.map": "/static/js/main.a2797e7e.js.map"
+    "main.f00dde69.css.map": "/static/css/main.f00dde69.css.map",
+    "main.f5ee0b8b.js.map": "/static/js/main.f5ee0b8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6e08e18.css",
-    "static/js/main.a2797e7e.js"
+    "static/css/main.f00dde69.css",
+    "static/js/main.f5ee0b8b.js"
   ]
 }
