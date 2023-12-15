@@ -7,7 +7,6 @@ import WhatWeDo from "./components/WhatWeDo";
 import Dice from "./components/Dice";
 import IRLUtility from "./components/IRLUtility";
 import MagicSoon from "./components/MagicSoon";
-import TokensAdopted from "./components/TokensAdopted";
 
 import "./AppRouter.styles.css";
 
@@ -20,7 +19,6 @@ const AppRouter = () => {
         <WhatWeDo />
         <Dice />
         <IRLUtility />
-        <TokensAdopted />
         <MagicSoon />
         <Footer />
       </div>
