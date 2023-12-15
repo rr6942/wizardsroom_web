@@ -25,9 +25,9 @@ const WhatWeDo = () => {
           <div className="text">
             <h2>Crypto Experience</h2>
             <p>
-              Elevate your journey with a seamless and secure crypto experience.
-              Our innovative solutions provide a user-friendly and efficient way
-              to engage with the crypto world.
+              Elevate your crypto journey with a seamless and secure crypto
+              experience. Our innovative solutions provide a user-friendly and
+              efficient way to engage with the crypto world.
             </p>
           </div>
         </div>
